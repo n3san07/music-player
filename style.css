@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+#all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80vw;
+    background-color: rgb(226, 215, 236);
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    padding-top: 30px;
+    width: 90px;
+}
+#first{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-left: 3vw;
+font-size: 30px;
+letter-spacing: 1px;
+font-family:Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+#sec{
+    display: flex;
+    align-items: center;
+}
+#waveform{
+    width: 100%;
+    align-items: center;
+    flex: 1;
+}
